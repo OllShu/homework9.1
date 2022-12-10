@@ -56,5 +56,16 @@ public class Main {
 
         System.out.println("Средняя сумма трат за месяц составила "+sumMedium+" рублей");
         System.out.println("_______________________");
+
+        //  4-я задача урока массивы, часть 2
+
+        //String string = "чивонавИ навИ вонавИ";
+        //char[] stringToChar = string.ToCharArray();
+
+        char name[] = " чивонавИ навИ вонавИ".toCharArray();
+        for (int i = name.length-1; i >0; i--) {
+            System.out.print(name[i]);
+        }
+        System.out.println("");
     }
 }

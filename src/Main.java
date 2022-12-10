@@ -6,7 +6,7 @@ public class Main {
         array = new int[30];
 
         /**
-         * array[0] = 100;
+       * array[0] = 100;
         array[1] = 101;
         array[2] = 102;
         for (int i=3; i<30; i++) {
@@ -19,6 +19,7 @@ public class Main {
             array[i + 1] = array[i] + 2;
         }
         array[29] = array[28] + 2;
+
         //System.out.println(Arrays.toString(array));
 
         //  первая задача урока массивы, часть 2
@@ -48,5 +49,23 @@ public class Main {
         System.out.println("Минимальная сумма трат за день составила " + minSum + " рублей. Максимальная сумма трат за день составила " + maxSum + " рублей");
 
         System.out.println("_______________________");
+
+        //  третья задача урока массивы, часть 2
+
+        double sumMedium = sumMonthly/array.length;
+
+        System.out.println("Средняя сумма трат за месяц составила "+sumMedium+" рублей");
+        System.out.println("_______________________");
+
+        //  4-я задача урока массивы, часть 2
+
+        //String string = "чивонавИ навИ вонавИ";
+        //char[] stringToChar = string.ToCharArray();
+
+        char name[] = " чивонавИ навИ вонавИ".toCharArray();
+        for (int i = name.length-1; i >0; i--) {
+            System.out.print(name[i]);
+        }
+        System.out.println("");
     }
 }
